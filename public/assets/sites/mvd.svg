@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 660" width="1280" height="660">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a5564"/><stop offset="1" stop-color="#9aa3ad"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="660" fill="url(#sky)"/>
+  <rect x="40" y="280" width="520" height="380" fill="#6d7380"/>
+  <rect x="70" y="310" width="80" height="70" fill="#2c3540" fill-opacity=".55"/>
+  <rect x="170" y="310" width="80" height="70" fill="#2c3540" fill-opacity=".55"/>
+  <rect x="270" y="310" width="80" height="70" fill="#2c3540" fill-opacity=".55"/>
+  <rect x="370" y="310" width="80" height="70" fill="#2c3540" fill-opacity=".55"/>
+  <rect x="70" y="410" width="80" height="70" fill="#2c3540" fill-opacity=".55"/>
+  <rect x="170" y="410" width="80" height="70" fill="#2c3540" fill-opacity=".55"/>
+  <rect x="270" y="410" width="80" height="70" fill="#2c3540" fill-opacity=".55"/>
+  <rect x="370" y="410" width="80" height="70" fill="#2c3540" fill-opacity=".55"/>
+  <rect x="200" y="540" width="90" height="120" fill="#3a4048"/>
+  <rect x="720" y="220" width="520" height="440" fill="#7a808a"/>
+  <rect x="720" y="220" width="520" height="36" fill="#c8312a"/>
+  <rect x="720" y="256" width="520" height="22" fill="#2f9e44"/>
+  <text x="980" y="248" text-anchor="middle" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#f3eee4">МУС / МВД</text>
+  <g fill="#1c2430" fill-opacity=".5">
+    <rect x="760" y="310" width="70" height="90"/><rect x="860" y="310" width="70" height="90"/>
+    <rect x="960" y="310" width="70" height="90"/><rect x="1060" y="310" width="70" height="90"/>
+    <rect x="1160" y="310" width="50" height="90"/>
+    <rect x="760" y="430" width="70" height="90"/><rect x="860" y="430" width="70" height="90"/>
+    <rect x="960" y="430" width="70" height="90"/><rect x="1060" y="430" width="70" height="90"/>
+  </g>
+  <rect x="980" y="540" width="70" height="120" fill="#2a3038"/>
+  <circle cx="400" cy="180" r="18" fill="#2c3138"/>
+  <circle cx="400" cy="180" r="8" fill="#6ad0e0"/>
+  <rect x="396" y="198" width="8" height="40" fill="#2c3138"/>
+  <circle cx="900" cy="170" r="18" fill="#2c3138"/>
+  <circle cx="900" cy="170" r="8" fill="#6ad0e0"/>
+  <rect x="896" y="188" width="8" height="32" fill="#2c3138"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 660" width="1280" height="660">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e2430"/><stop offset="1" stop-color="#6a5a52"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="660" fill="url(#sky)"/>
+  <rect x="680" y="180" width="560" height="480" fill="#4a4550"/>
+  <rect x="680" y="180" width="560" height="48" fill="#2a2430"/>
+  <polygon points="680,180 960,110 1240,180" fill="#3a3540"/>
+  <rect x="900" y="70" width="10" height="50" fill="#2c3138"/>
+  <rect x="1080" y="90" width="8" height="90" fill="#2c3138"/>
+  <circle cx="1084" cy="86" r="10" fill="#c8312a"/>
+  <g fill="#c8b48a" fill-opacity=".25">
+    <rect x="720" y="250" width="48" height="70"/><rect x="800" y="250" width="48" height="70"/>
+    <rect x="880" y="250" width="48" height="70"/><rect x="960" y="250" width="48" height="70"/>
+    <rect x="1040" y="250" width="48" height="70"/><rect x="1120" y="250" width="48" height="70"/>
+    <rect x="720" y="350" width="48" height="70"/><rect x="800" y="350" width="48" height="70"/>
+    <rect x="880" y="350" width="48" height="70"/><rect x="960" y="350" width="48" height="70"/>
+    <rect x="1040" y="350" width="48" height="70"/><rect x="1120" y="350" width="48" height="70"/>
+    <rect x="720" y="450" width="48" height="70"/><rect x="800" y="450" width="48" height="70"/>
+    <rect x="880" y="450" width="48" height="70"/><rect x="960" y="450" width="48" height="70"/>
+    <rect x="1040" y="450" width="48" height="70"/><rect x="1120" y="450" width="48" height="70"/>
+  </g>
+  <rect x="940" y="540" width="80" height="120" fill="#2a2430"/>
+  <text x="960" y="214" text-anchor="middle" font-family="system-ui,sans-serif" font-size="32" font-weight="700" fill="#c8b48a">КДБ</text>
+  <rect x="80" y="420" width="220" height="240" fill="#3a3840"/>
+  <rect x="110" y="450" width="40" height="50" fill="#1a181c"/>
+  <rect x="170" y="450" width="40" height="50" fill="#1a181c"/>
+  <rect x="230" y="450" width="40" height="50" fill="#1a181c"/>
+</svg>

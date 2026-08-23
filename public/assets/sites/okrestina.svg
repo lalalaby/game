@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 660" width="1280" height="660">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c3038"/><stop offset="1" stop-color="#6a6460"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="660" fill="url(#sky)"/>
+  <rect x="0" y="380" width="1280" height="40" fill="#3a3836"/>
+  <rect x="80" y="250" width="420" height="410" fill="#5a5652"/>
+  <g stroke="#2a2826" stroke-width="3">
+    <rect x="110" y="290" width="50" height="40" fill="#1a1816"/>
+    <rect x="180" y="290" width="50" height="40" fill="#1a1816"/>
+    <rect x="250" y="290" width="50" height="40" fill="#1a1816"/>
+    <rect x="320" y="290" width="50" height="40" fill="#1a1816"/>
+    <rect x="390" y="290" width="50" height="40" fill="#1a1816"/>
+    <rect x="110" y="360" width="50" height="40" fill="#1a1816"/>
+    <rect x="180" y="360" width="50" height="40" fill="#1a1816"/>
+    <rect x="250" y="360" width="50" height="40" fill="#1a1816"/>
+    <rect x="320" y="360" width="50" height="40" fill="#1a1816"/>
+    <rect x="390" y="360" width="50" height="40" fill="#1a1816"/>
+    <rect x="110" y="430" width="50" height="40" fill="#1a1816"/>
+    <rect x="180" y="430" width="50" height="40" fill="#1a1816"/>
+    <rect x="250" y="430" width="50" height="40" fill="#1a1816"/>
+    <rect x="320" y="430" width="50" height="40" fill="#1a1816"/>
+    <rect x="390" y="430" width="50" height="40" fill="#1a1816"/>
+  </g>
+  <g stroke="#8a8680" stroke-width="2" fill="none">
+    <path d="M110 290 v40 M135 290 v40 M160 290 v40"/>
+    <path d="M180 290 v40 M205 290 v40 M230 290 v40"/>
+    <path d="M250 360 v40 M275 360 v40 M300 360 v40"/>
+  </g>
+  <rect x="980" y="200" width="36" height="460" fill="#3e3c3a"/>
+  <rect x="950" y="200" width="96" height="50" fill="#4a4844"/>
+  <circle cx="998" cy="190" r="14" fill="#d4c48a" fill-opacity=".7"/>
+  <rect x="700" y="420" width="180" height="240" fill="#4a4642"/>
+  <rect x="760" y="540" width="50" height="120" fill="#2a2826"/>
+  <path d="M0 400 L1280 400" stroke="#2a2826" stroke-width="6"/>
+  <g stroke="#6a6660" stroke-width="2">
+    <path d="M520 400 v-80 M560 400 v-90 M600 400 v-70 M640 400 v-85"/>
+  </g>
+</svg>

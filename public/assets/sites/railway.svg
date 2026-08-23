@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 660" width="1280" height="660">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d4a63"/><stop offset="1" stop-color="#c97b4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="660" fill="url(#sky)"/>
+  <circle cx="240" cy="540" r="52" fill="#ffb45a" fill-opacity=".85"/>
+  <g stroke="#2c3547" stroke-width="6" fill="none">
+    <path d="M120 660 V470 M86 482 H154"/>
+    <path d="M310 660 V470 M276 482 H344"/>
+    <path d="M500 660 V470 M466 482 H534"/>
+    <path d="M690 660 V470 M656 482 H724"/>
+    <path d="M880 660 V470 M846 482 H914"/>
+    <path d="M1070 660 V470 M1036 482 H1104"/>
+  </g>
+  <path d="M0 482 Q320 476 640 482 T1280 482" stroke="#2c3547" stroke-opacity=".8" stroke-width="2" fill="none"/>
+  <rect x="84" y="510" width="10" height="150" fill="#2c3547"/>
+  <circle cx="89" cy="502" r="8" fill="#ffcc33"/>
+  <text x="200" y="200" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#2c3547" fill-opacity=".35">БЧ</text>
+</svg>

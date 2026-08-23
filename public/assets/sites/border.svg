@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 660" width="1280" height="660">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a7a8a"/><stop offset="1" stop-color="#c5c0a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="660" fill="url(#sky)"/>
+  <rect x="0" y="500" width="1280" height="20" fill="#8a8668"/>
+  <g stroke="#4a4a40" stroke-width="3">
+    <path d="M40 500 V420 M80 500 V410 M120 500 V425 M160 500 V405 M200 500 V420"/>
+    <path d="M40 420 H200"/>
+  </g>
+  <rect x="980" y="390" width="140" height="270" fill="#7a7a68"/>
+  <rect x="1000" y="420" width="40" height="36" fill="#2a4050"/>
+  <rect x="1060" y="420" width="40" height="36" fill="#2a4050"/>
+  <rect x="1028" y="560" width="44" height="100" fill="#3a3a32"/>
+  <rect x="700" y="480" width="220" height="24" fill="#c8312a"/>
+  <rect x="700" y="504" width="220" height="16" fill="#f3eee4"/>
+  <rect x="700" y="520" width="220" height="24" fill="#c8312a"/>
+  <rect x="688" y="470" width="16" height="190" fill="#3a3a32"/>
+  <rect x="360" y="470" width="90" height="190" fill="#6a6a58"/>
+  <rect x="378" y="500" width="28" height="24" fill="#2a4050"/>
+  <text x="1050" y="370" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#3a3a32">МЫТНЯ</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 660" width="1280" height="660">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5d6d72"/><stop offset="1" stop-color="#b8a98c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="660" fill="url(#sky)"/>
+  <path d="M905 660 C928 517 931 462 917 400 H1043 C1029 462 1032 517 1055 660 Z" fill="#7d8a8f"/>
+  <rect x="760" y="360" width="34" height="300" fill="#6d7a80"/>
+  <path d="M600 570 H980 M600 610 H760" stroke="#5d6b71" stroke-width="14"/>
+  <ellipse cx="420" cy="620" rx="34" ry="46" fill="#8a979c"/>
+  <ellipse cx="510" cy="620" rx="34" ry="46" fill="#8a979c"/>
+  <ellipse cx="600" cy="620" rx="34" ry="46" fill="#8a979c"/>
+  <g transform="translate(560,630)">
+    <rect x="0" y="0" width="16" height="30" fill="#d9a521" transform="skewX(-30)"/>
+    <rect x="16" y="0" width="16" height="30" fill="#2b2f33" transform="skewX(-30)"/>
+    <rect x="32" y="0" width="16" height="30" fill="#d9a521" transform="skewX(-30)"/>
+    <rect x="48" y="0" width="16" height="30" fill="#2b2f33" transform="skewX(-30)"/>
+    <rect x="64" y="0" width="16" height="30" fill="#d9a521" transform="skewX(-30)"/>
+  </g>
+  <text x="200" y="240" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#4a5558" fill-opacity=".4">АЗОТ</text>
+</svg>

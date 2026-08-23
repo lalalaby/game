@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 660" width="1280" height="660">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f8fd0"/><stop offset="1" stop-color="#bcd9ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="660" fill="url(#sky)"/>
+  <!-- National Airport Minsk-2 terminal -->
+  <rect x="620" y="430" width="560" height="230" fill="#8aa4b8"/>
+  <rect x="620" y="430" width="560" height="28" fill="#2f6b4a"/>
+  <g fill="#d7eef8" fill-opacity=".78">
+    <rect x="640" y="478" width="36" height="150"/>
+    <rect x="688" y="478" width="36" height="150"/>
+    <rect x="736" y="478" width="36" height="150"/>
+    <rect x="784" y="478" width="36" height="150"/>
+    <rect x="832" y="478" width="36" height="150"/>
+    <rect x="880" y="478" width="36" height="150"/>
+    <rect x="928" y="478" width="36" height="150"/>
+    <rect x="976" y="478" width="36" height="150"/>
+    <rect x="1024" y="478" width="36" height="150"/>
+    <rect x="1072" y="478" width="36" height="150"/>
+    <rect x="1120" y="478" width="36" height="150"/>
+  </g>
+  <rect x="820" y="610" width="70" height="50" fill="#3a5060"/>
+  <!-- control tower -->
+  <rect x="1180" y="360" width="26" height="300" fill="#6f8aa0"/>
+  <rect x="1158" y="336" width="70" height="30" fill="#5d7a90"/>
+  <rect x="1168" y="318" width="50" height="18" fill="#4a6578"/>
+  <text x="900" y="422" text-anchor="middle" font-family="system-ui,sans-serif" font-size="26" font-weight="700" fill="#1e3a2a">МІНСК-2</text>
+  <text x="900" y="452" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#3a5060">MSQ</text>
+</svg>
