@@ -25,8 +25,8 @@ if (!isGitRepo()) {
 const { version } = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8'));
 const tag = `v${version}`;
 
-// HEAD carries the current version tag only when the version commit is the tip,
-// i.e. no commits have landed since the last bump.
+// HEAD carries the current version tag only when the release commit is the tip,
+// i.e. no commits have landed since the last release.
 let atVersionCommit = false;
 try {
   atVersionCommit = run('git describe --tags --exact-match HEAD') === tag;
@@ -37,6 +37,8 @@ try {
 if (atVersionCommit) {
   console.log(`[version-bump] HEAD is ${tag}; no new commits, keeping version`);
 } else {
-  console.log('[version-bump] new commits since last version; bumping patch');
-  execSync('npm version patch --force', { cwd: root, stdio: 'inherit' });
+  console.log('[version-bump] new commits since last release; bumping patch');
+  // Bump the manifest only. The commit + tag happen after the build so the
+  // freshly built output lands in the same release commit.
+  execSync('npm version patch --no-git-tag-version', { cwd: root, stdio: 'inherit' });
 }
