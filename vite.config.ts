@@ -1,5 +1,5 @@
 import { defineConfig, type Plugin } from 'vite';
-import { existsSync, readdirSync, readFileSync, rmSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 function escapeRe(s: string): string {
@@ -93,6 +93,12 @@ function singleHtml(): Plugin {
         if (name === 'index.html') continue;
         rmSync(join(outDir, name), { recursive: true, force: true });
       }
+
+      // Emit a cache-busting copy named after the package version so a fresh
+      // URL can be served without invalidating the stable index.html.
+      const { version } = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8'));
+      const indexPath = join(outDir, 'index.html');
+      writeFileSync(join(outDir, `index.${version}.html`), readFileSync(indexPath));
     },
   };
 }
